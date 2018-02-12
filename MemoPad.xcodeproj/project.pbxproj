@@ -14,6 +14,8 @@
 		E9BC7F35202FC35100DDDC5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BC7F33202FC35100DDDC5B /* LaunchScreen.storyboard */; };
 		E9BC7F40202FC35100DDDC5B /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC7F3F202FC35100DDDC5B /* MemoPadTests.swift */; };
 		E9BC7F4B202FC35100DDDC5B /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC7F4A202FC35100DDDC5B /* MemoPadUITests.swift */; };
+		E9BC7F59202FC3AA00DDDC5B /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC7F58202FC3AA00DDDC5B /* MemoViewController.swift */; };
+		E9BC7F5B20316D3E00DDDC5B /* memo.png in Resources */ = {isa = PBXBuildFile; fileRef = E9BC7F5A20316D3E00DDDC5B /* memo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E9BC7F46202FC35100DDDC5B /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BC7F4A202FC35100DDDC5B /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		E9BC7F4C202FC35100DDDC5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9BC7F58202FC3AA00DDDC5B /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		E9BC7F5A20316D3E00DDDC5B /* memo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		E9BC7F29202FC35100DDDC5B /* MemoPad */ = {
 			isa = PBXGroup;
 			children = (
+				E9BC7F5A20316D3E00DDDC5B /* memo.png */,
 				E9BC7F2A202FC35100DDDC5B /* AppDelegate.swift */,
 				E9BC7F2C202FC35100DDDC5B /* ViewController.swift */,
 				E9BC7F2E202FC35100DDDC5B /* Main.storyboard */,
 				E9BC7F31202FC35100DDDC5B /* Assets.xcassets */,
 				E9BC7F33202FC35100DDDC5B /* LaunchScreen.storyboard */,
 				E9BC7F36202FC35100DDDC5B /* Info.plist */,
+				E9BC7F58202FC3AA00DDDC5B /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9BC7F35202FC35100DDDC5B /* LaunchScreen.storyboard in Resources */,
+				E9BC7F5B20316D3E00DDDC5B /* memo.png in Resources */,
 				E9BC7F32202FC35100DDDC5B /* Assets.xcassets in Resources */,
 				E9BC7F30202FC35100DDDC5B /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			files = (
 				E9BC7F2D202FC35100DDDC5B /* ViewController.swift in Sources */,
 				E9BC7F2B202FC35100DDDC5B /* AppDelegate.swift in Sources */,
+				E9BC7F59202FC3AA00DDDC5B /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
